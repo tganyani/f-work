@@ -1,0 +1,123 @@
+<%- include('./partials/header') %>
+<body>
+  <section class="home" id="home" style="height: 100px">
+    <%- include('./partials/navbar') %>
+  </section>
+  <!-- customize -->
+  <section class="customize" id="customise">
+    <div class="header">
+      <h1>custØmize</h1>
+    </div>
+    <div class="left-vertical-bar"></div>
+    <div class="left-horizontal-bar">
+      <div class="inner">
+        <h1>S</h1>
+        <h1>M</h1>
+        <h1>L</h1>
+      </div>
+    </div>
+    <div class="parent-left-circle">
+      <div class="left-circle"></div>
+      <div
+        class="left-circle"
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <h1 style="color: white; font-size: 2rem">CM</h1>
+      </div>
+      <div class="left-circle"></div>
+      <div class="left-circle"></div>
+      <div class="left-circle"></div>
+    </div>
+    <div class="cart" id="cart">
+      <div class="cart-icon">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="width: 30px; height: 30px"
+            viewBox="0 0 576 512"
+          >
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="header"><h4 style="font-size: 2rem">cart</h4></div>
+      <div class="inner">
+        <div class="sub-inner">
+          <div class="category">
+            <p>Medium</p>
+            <hr />
+            <h5>499€</h5>
+          </div>
+          <div class="icon"></div>
+        </div>
+        <div class="sub-inner">
+          <div class="category">
+            <p>Double</p>
+            <hr />
+            <h5>+199€</h5>
+          </div>
+          <div class="icon"></div>
+        </div>
+        <div class="sub-inner">
+          <div class="category">
+            <p>450cm x 90cm</p>
+            <hr />
+            <h5>+99€</h5>
+          </div>
+          <div class="icon">
+            <h1 style="font-size: 2rem; color: white">CM</h1>
+          </div>
+        </div>
+        <div class="sub-inner">
+          <div class="category">
+            <p>Ebony 1045</p>
+            <hr />
+            <h5>+299€</h5>
+          </div>
+          <div class="icon"></div>
+        </div>
+        <div class="sub-inner">
+          <div class="category">
+            <p>Silver opaque</p>
+            <hr />
+            <h5>+49€</h5>
+          </div>
+          <div class="icon"></div>
+        </div>
+        <div class="sub-inner">
+          <div class="category">
+            <p>None</p>
+            <hr />
+            <h5>+0€</h5>
+          </div>
+          <div class="icon"></div>
+        </div>
+      </div>
+      <hr style="width: 90%; margin-left: 5%" />
+      <div
+        class="footer"
+        style="
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          margin-top: 10px;
+        "
+      >
+        <h5 style="margin-right: 30px">Summe</h5>
+        <h5>1145€</h5>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer"><%- include('./partials/footer') %></section>
+  <!-- scripts -->
+  <%- include('./partials/scripts') %>
+</body>

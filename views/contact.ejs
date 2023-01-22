@@ -1,0 +1,66 @@
+<%- include('./partials/header') %>
+<body>
+  <section class="home" id="home" style="height: 100px">
+    <%- include('./partials/navbar') %>
+  </section>
+  <section class="contact" id="contact">
+    <div class="header">
+      <h1>KØntakt</h1>
+    </div>
+    <div class="form">
+      <form action="">
+        <div class="name">
+          <h4>Name</h4>
+          <div class="input-sub">
+            <div class="first-name">
+              <label for="first-name">Vorname*</label>
+              <input type="text" />
+            </div>
+            <div class="last-name">
+              <label for="last-name">Nachname*</label>
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="email">
+          <h4>E-Mail*</h4>
+          <input type="email" />
+        </div>
+        <div class="phone-number">
+          <h4>Telefonnummer</h4>
+          <input type="number" />
+        </div>
+        <div class="address">
+          <h4>Addresse</h4>
+          <div class="house-number">
+            <label for="">Straße & Hausnummer*</label>
+            <input type="text" />
+          </div>
+          <div class="house-number">
+            <label for="">Straße & Hausnummer 2</label>
+            <input type="text" />
+          </div>
+          <div class="plz-ort">
+            <div class="plz">
+              <label for="">PLZ*</label>
+              <input type="text" />
+            </div>
+            <div class="ort">
+              <label for="">Ort*</label>
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="nachricht">
+          <h4>Nachricht</h4>
+          <label for="">Individuelle Anfragen, Fragen, Anregungen etc.</label>
+          <textarea name="" id="" rows="10"></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer"><%- include('./partials/footer') %></section>
+  <!-- scripts -->
+  <%- include('./partials/scripts') %>
+</body>
